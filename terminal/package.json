@@ -1,0 +1,25 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "The first project",
+  "main": "index.js",
+  "engines": {
+    "node": "^8.9.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+
+  "author": "vikamoisey@gmail.com",
+  "license": "MIT",
+  "bugs": {
+
+  },
+  "preferGlobal": true,
+    "bin": "./index.js",
+    "dependencies": {
+    "commander": "2.14.1",
+    "inquirer": "5.1.0"
+  }
+}
